@@ -46,6 +46,10 @@ public class Tile {
         groups[Direction.WEST.index()] = oldNorth;
     }
 
+    public boolean hasCloister() {
+        return cloister;
+    }
+
     public static class TileBuilder {
 
         private int n0;
